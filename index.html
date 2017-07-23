@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,user-saclable=0	,initial-scale=1.0,maximum-scale=1.0" ／>
+	<meta name="keywords" content="缤果盒子,无人便利店,智能,便利店" ／>	
+	<title>缤果盒子，神奇的无人值守智能便利店</title>
+	<link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="../css/index.css">
+	<script src="../../jQuery/bist/3.2.1/jquery-3.2.1.js"></script>
+	<script src="../../bootstrap/js/bootstrap.js"></script>
+	<script src="../js/index.js"></script>
+	
+	<!--[if lt IE 9]>
+	  	<script type="text/javascript" src="js/html5shiv.min.js"></script>
+	  	<script type="text/javascript" src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body ontouchstart="">
+	<!-- 导航栏 -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	  	<div class="container">
+	    	<div class="navbar-header">
+		      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		        	<span class="sr-only">Toggle navigation</span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		      	</button>
+		      	<a class="navbar-brand" href="index.html"><img src="../img/logo.png" alt="缤果盒子logo"></a>
+	    	</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">首页<i></i></a></li>
+					<li><a href="introduction.html">盒子介绍<i></i></a></li>
+					<li><a href="join.html">加盟<i></i></a></li>
+					<li><a href="mode.html">盈利模式<i></i></a></li>
+					<li><a href="about.html">关于<i></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- 主内容 -->
+	<div class="container-fluid">
+		<div class="starter-template">
+			<!-- 顶部大图 -->
+			<div class="slideshow index-slideshow">
+				<div class="slideshow-wrap"><img src="../img/slide.png?"></div>
+			</div>
+
+			<section class="templatemo-section section-white">
+				<div class="section-wrap section-itemvideo">
+					<div class="video-content">
+						<video src="../img/%E7%BC%A4%E6%9E%9C%E7%9B%92%E5%AD%90%E8%A7%86%E9%A2%91.mp4" controls="controls" id="bingoboxvideo">抱歉，您的浏览器不支持播放这个视频，请您扔掉老旧的浏览器拥抱现代浏览器。</video>
+						<div class="video-open" id="videoOpen">
+							<a class="video-open-btn" href="javascript:playPauseVideo()">
+								<img src="../img/video-open.jpg?v=2017032301" alt="视频播放">
+							</a>
+						</div>
+					</div>
+					<div class="video-info"><img src="../img/video-info.png?v=2017050801"></div>
+				</div>
+			</section>
+			<section class="templatemo-section section-white-smoke">
+				<div class="section-wrap"><img src="../img/templatemo1.png?v=2017062601" class="content" alt="三步完成付款"></div>
+			</section>
+			<section class="templatemo-section section-white">
+				<div class="section-wrap"><img src="../img/templatemo2.png" class="content" alt="盒子设计专利"></div>
+			</section>
+			<img src="../img/templatemo3.png" style="width: 100%;">
+			<section class="templatemo-section section-white">
+				<div class="section-wrap"><img src="../img/templatemo4.png" class="content" alt="支付方式"></div>
+			</section>
+			<section class="templatemo-section section-white-smoke">
+				<div class="section-wrap"><img src="../img/templatemo5.png" class="content" alt="可视化管理"></div>
+			</section>
+			<!-- <section class="templatemo-section section-white">
+				<div class="section-wrap"><img src="../img/templatemo6.png" class="content" alt="战略合作伙伴"></div>
+			</section> -->
+			<footer class="templatemo-section section-black">
+				<div class="section-wrap">中山市宾哥网络科技有限公司<br><a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备16097902号-1</a></div>
+			</footer>
+			<div class="gotop-wrapper"><a href="javascript:gotop();"></a></div>
+		</div>
+	</div>
+	<!-- 弹窗提示 -->
+	<div class="fixed-wrap" id="fixedWrap">
+		<div class="fixed-content" id="fixedContent">
+			<h1 class="content-title">郑重声明</h1>
+			<p class="content-date">2017-07-09</p>
+			<div class="content-text">近期发现有不法分子冒充缤果盒子(BingoBox)员工以个人汇款形式要求加盟伙伴预付款项。在此我们郑重声明：本公司绝不会以个人名义要求、接受定金。请广大用户注意。</div>
+			<div class="content-logo"><img src="../img/logo-white.png" alt="bingobox"></div>
+			<a href="javascript:closeFixed()" class="fixed-close iconfont icon-close"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+		</div>
+	</div>
+</body>
+</html>
